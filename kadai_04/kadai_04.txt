@@ -1,0 +1,15 @@
+ kanoippei@kanouippeinoMacBook-Air ~ % mkdir git_challenge
+kanoippei@kanouippeinoMacBook-Air ~ % cd git_challenge
+kanoippei@kanouippeinoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/kanoippei/git_challenge/.git/
+kanoippei@kanouippeinoMacBook-Air git_challenge % git add /Users/kanoippei/git_challenge/hello_world.txt
+kanoippei@kanouippeinoMacBook-Air git_challenge % git commit -m"hello_world.txt を追記"
+[main (root-commit) abde038] hello_world.txtを追記
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+kanoippei@kanouippeinoMacBook-Air git_challenge % git add /Users/kanoippei/git_challenge/hello_world.txt
+kanoippei@kanouippeinoMacBook-Air git_challenge % git commit -m"日本語訳を追記"[main 59a3a83] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+kanoippei@kanouippeinoMacBook-Air git_challenge % git log --oneline
+59a3a83 (HEAD -> main) 日本語訳を追記
+abde038 hello_world.txtを追記
